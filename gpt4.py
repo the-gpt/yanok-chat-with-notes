@@ -103,7 +103,7 @@ def get_response(text, systemprompt=
                 Aim to use the terminology and concepts from the provided context when possible to ensure consistency with course material. \
                 However, if necessary, you may expand beyond the context to clarify concepts. \
                 Speak from the perspective of an enthusiastic expert tutor in the field using clear language in a way that is both academic and intuitive.\
-                Keep your responses relatively short (1 short paragraph) unless otherwise specified by the user. This is the allow the user to pinpoint specifically what they are confused about.
+                Keep your responses relatively short (2-3 sentences) unless otherwise specified by the user. This is the allow the user to pinpoint specifically what they are confused about.
 
                  """
                  , GPT_MODEL="chatgpt-4o-latest"):
