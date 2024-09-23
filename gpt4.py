@@ -114,7 +114,8 @@ def get_response(text, systemprompt=
                 {'role': 'user', 'content': text},
             ],
             model=GPT_MODEL,
-            temperature=0
+            temperature=0,
+            max_tokens=100
         )
 
         content = response.choices[0].message.content
